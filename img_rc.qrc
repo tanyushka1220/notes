@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>bg_im.PNG</file>
+    <file>free-icon-font-bookmark-3916593.png</file>
+    <file>free-icon-font-check-3917749.png</file>
+    <file>free-icon-font-cross-3917759.png</file>
+    <file>free-icon-font-edit-3917361.png</file>
+    <file>free-icon-font-search-3917132.png</file>
+    <file>free-icon-font-trash-3917378.png</file>
+    <file>free-icon-font-user-add-3917698.png</file>
+    <file>icon.png</file>
+    <file>list.PNG</file>
+    <file>txt.PNG</file>
+  </qresource>
+</RCC>
