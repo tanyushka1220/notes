@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import image.img_rc 
+import image.img_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -46,16 +46,16 @@ class Ui_MainWindow(object):
         self.btn_del_note.setStyleSheet("border-image: url(:/newPrefix/free-icon-font-trash-3917378.png);")
         self.btn_del_note.setText("")
         self.btn_del_note.setObjectName("btn_del_note")
-        self.btn_dave_note = QtWidgets.QPushButton(self.main_win)
-        self.btn_dave_note.setGeometry(QtCore.QRect(600, 180, 41, 31))
-        self.btn_dave_note.setStyleSheet("border-image: url(:/newPrefix/free-icon-font-check-3917749.png);")
-        self.btn_dave_note.setText("")
-        self.btn_dave_note.setObjectName("btn_dave_note")
+        self.btn_save_note = QtWidgets.QPushButton(self.main_win)
+        self.btn_save_note.setGeometry(QtCore.QRect(600, 180, 41, 31))
+        self.btn_save_note.setStyleSheet("border-image: url(:/newPrefix/free-icon-font-check-3917749.png);")
+        self.btn_save_note.setText("")
+        self.btn_save_note.setObjectName("btn_dave_note")
         self.txt_list_2 = QtWidgets.QLabel(self.main_win)
         self.txt_list_2.setGeometry(QtCore.QRect(400, 230, 231, 20))
         self.txt_list_2.setObjectName("txt_list_2")
         self.teg_find = QtWidgets.QLineEdit(self.main_win)
-        self.teg_find.setGeometry(QtCore.QRect(390, 400, 301, 30))
+        self.teg_find.setGeometry(QtCore.QRect(390, 400, 300, 30))
         self.teg_find.setStyleSheet("border:5px solid rgb(255, 253, 255);background-color: rgb(221, 255, 253);border-radius:15px;"
 "")
         self.teg_find.setObjectName("teg_find")
@@ -64,6 +64,11 @@ class Ui_MainWindow(object):
         self.btn_del_teg.setStyleSheet("border-image: url(:/newPrefix/free-icon-font-cross-3917759.png);\n"
 "")
         self.btn_del_teg.setText("")
+        self.teg_find = QtWidgets.QLineEdit(self.main_win)
+        self.teg_find.setGeometry(QtCore.QRect(390, 400, 300, 30))
+        self.teg_find.setStyleSheet("border:5px solid rgb(255, 253, 255);background-color: rgb(221, 255, 253);border-radius:15px;"
+"")
+        self.teg_find.setObjectName("teg_find")
         self.btn_del_teg.setObjectName("btn_del_teg")
         self.btn_find_teg = QtWidgets.QPushButton(self.main_win)
         self.btn_find_teg.setGeometry(QtCore.QRect(520, 440, 41, 31))
